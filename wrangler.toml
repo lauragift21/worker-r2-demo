@@ -1,0 +1,7 @@
+name = "worker-r2-demo"
+main = "src/index.ts"
+compatibility_date = "2023-03-08"
+
+r2_buckets = [
+  { binding = "R2_BUCKET", bucket_name = "r2-demo-bucket", preview_bucket_name = "worker-r2-dev" }
+]
